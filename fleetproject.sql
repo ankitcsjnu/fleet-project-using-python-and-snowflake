@@ -18,8 +18,8 @@ Compression = auto; -- file mera telemetry.json.gz hai -> Snowflake pehle unzip 
 create or replace stage VEHICLE_STAGE
 URL='s3://fleet-data-buckett/vehicles/'
 CREDENTIALS=(
-AWS_KEY_ID = 'AKIA4JKAKE2JSOU3Q7MH',
-AWS_SECRET_KEY = 'Oe6guYyBpx0KeEno1EJ+uU0skq3aho8o2y7SZzs+'
+AWS_KEY_ID = 'AKIMH',
+AWS_SECRET_KEY = 'Oe6g'
   )
 file_format=FF_CSV;
 
