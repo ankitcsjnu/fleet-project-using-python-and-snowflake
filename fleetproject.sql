@@ -27,8 +27,8 @@ file_format=FF_CSV;
 create or replace stage TELEMETRY_STAGE
 URL='s3://fleet-data-buckett/telemetry/'
 CREDENTIALS=(
-AWS_KEY_ID = 'AKIA4JKAKE2JSOU3Q7MH',
-AWS_SECRET_KEY = 'Oe6guYyBpx0KeEno1EJ+uU0skq3aho8o2y7SZzs+'
+AWS_KEY_ID = 'AKH',
+AWS_SECRET_KEY = 'Oe6+'
   )
 file_format=ff_json;
 
